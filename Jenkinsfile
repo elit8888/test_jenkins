@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'dlp'
-    }
-
-  }
+  agent any
   stages {
     stage('Build') {
       steps {
